@@ -1,28 +1,38 @@
-import React, { Component } from 'react';
-
+import React, { Component } from "react";
+import {Fade} from "react-awesome-reveal";
 
 class About extends Component {
-    render() {
-        return (
-            <div className="condiv">
-            <h1 className="subtopic">About Me</h1>
-            <h4>Hey there,</h4>
-            <h1>I'm Abdul Wahid Naafi</h1>
-            <h3>Full Stack Web <u>Developer</u> | UI/UX <u>Designer</u></h3>
-            <br></br>
-            <p>I started my journey in the world of computers from an young age,
-            now I’m 20 years old, Pursuing my Software Engineering Degree in
-            VIT University Vellore.  Web development is my center of interest, i always
-            love the idea of cross-platform development, 1-n one code base deploy into almost
-            any platform, which web technology like Javascript enables me to do. I also like
-            creating Interactive UI components for better UX  and share those desgin and codes
-            to the world through Github, Codepen and Instagram.
-            </p>
-            
-            </div>
-            )
-        }
-    }
-    
-export default About
-    
+  render() {
+    return (
+      <div className="condiv">
+        <Fade>
+          <h1>My name is Caden Westmoreland</h1>
+          <br></br>
+          <p>
+            I grew up in Tyler, TX and graduated from Whitehouse High School in
+            2016 in the top 7% of my class. I then began a bachelor's degree in
+            Aerospace Engineering at The University of Texas at Austin. During
+            that time, I completed two internships in which I found myself
+            primarily developing software for my employers. In my first
+            internship, I was tasked with developing a software and hardware
+            solution for remote-controlling tiny little mirrors inside of a
+            petawatt laser (with micrometer accuracy!) The next summer, I was
+            tasked with building a database for an enginneering company to keep
+            track of various tasks the other engineers and technicians would be
+            working on.
+          </p>
+
+          <p>
+            By the end of both internships, I had completed both projects and
+            decided that I really enjoyed developing software. In December 2019,
+            I made a career switch to Computer Science and began my transfer
+            process to Texas State University. I expect to graduate in Fall
+            2016.
+          </p>
+        </Fade>
+      </div>
+    );
+  }
+}
+
+export default About;
